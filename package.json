@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A frontend map project",
+  "main": "employChart.js",
+  "homepage": "https://Chimpdu.github.io/map-data--Finland",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Yuxin Du",
+  "license": "MIT"
+}
