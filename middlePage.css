@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(#FFFFFF, #002F6C);
+    font-family: 'Nunito Sans', sans-serif;;
+}
+.container {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.initiate-button{
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    flex-grow: 1;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 1px solid #333333;
+}
+.initiate-button:last-child {
+    border-radius: 0 0 20px 20px;
+}
+p {
+    font-size: 2.5rem;
+    margin: 10% 5%;
+    text-align: center;
+}
+.go-back {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    border: 2px solid black;
+    width: 5%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.go-back img {
+    width: 100%;
+}
+@media screen and (max-width:480px) {
+    .container {
+        width: 75%;
+    }
+
+    .go-back {
+        width: 10%;
+    }
+    
+} 
+@media screen and (max-height: 480px) and (min-aspect-ratio: 7/4) {
+    .container {
+        height: 80%;
+    }
+
+    .go-back {
+        width: 10vh;
+    }
+}
