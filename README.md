@@ -6,4 +6,4 @@ User could choose to display two layers of data: votes for parties of parliament
 User could see more relevant data by clicking on the cities to see the popup.
 User could get statistical charts of their preference by clicking the button in the popup.
 User could freely navigate between maps and charts.
-All data are provided by Tilastokeskus, maps are openstreetmap and google map. Video:  https://youtu.be/kAWnf07-4ek
+All data are provided by Tilastokeskus, maps are openstreetmap and google map. View at website: https://chimpdu.github.io/map-data--Finland
